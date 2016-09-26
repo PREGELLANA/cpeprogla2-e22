@@ -121,3 +121,49 @@ Choice :                                                 //Function Call or "Sub
 	
  } 
 }
+
+
+# include <iostream>
+# include <math.h>
+# include <ctime>
+# include <cstdlib>
+# include <string>
+# include <cstring>
+using namespace std;
+
+int max(int num1, int num2){
+	if (num1 > num2){
+	return num1;
+}
+    else {
+	return num2;
+}
+}
+
+
+
+int main(){
+
+	int num1, num2, gn;
+	
+	cout<<" Enter 1st number: ";
+	cin>>num1;
+	cout<<" Enter 2nd number: ";
+	cin>>num2;
+	
+	gn = max(num1, num2);
+	cout<<gn;
+	
+	if ( num1 > num2 ){
+		return num1;
+	}
+	
+	
+	else if (num1 < num2){
+		return num2;
+	}
+	
+	}
+
+	
+	
